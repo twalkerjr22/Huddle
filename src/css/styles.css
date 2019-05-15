@@ -1,0 +1,23 @@
+body {
+  background: white;
+  color: white;
+  margin: 0px; }
+
+nav {
+  margin: 0 auto; }
+
+.nav-button {
+  padding: 20px 35px 20px 35px;
+  background-color: white;
+  width: 200px;
+  text-decoration: none;
+  border-style: none;
+  border-radius: 50px;
+  float: right; }
+
+.main-header {
+  margin: 0px;
+  height: 300px;
+  padding: 40px;
+  background-image: url("../imgs/bg-hero-desktop.svg");
+  background-color: #ebfbff; }

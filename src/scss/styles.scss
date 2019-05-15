@@ -1,0 +1,35 @@
+$bg-color: white;
+$white: white;
+$grayish-blue: hsl(193, 100%, 96%);
+
+// Buttons Styles
+$btn-padding:20px 35px 20px 35px;
+$btn-width: 200px;
+
+body {
+  background: $bg-color;
+  color: $white;
+  margin: 0px;
+}
+
+nav{
+    margin: 0 auto;
+}
+
+.nav-button {
+  padding: $button-padding;
+  background-color: $white;
+  width: $btn-width;
+  text-decoration: none;
+  border-style: none;
+  border-radius: 50px;
+  float:right;
+}
+
+.main-header {
+  margin: 0px;
+  height: 300px;
+  padding:40px;
+  background-image: url("../imgs/bg-hero-desktop.svg");
+  background-color: $grayish-blue;
+}

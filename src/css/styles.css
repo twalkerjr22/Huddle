@@ -1,23 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px; }
+
 body {
   background: white;
   color: white;
-  margin: 0px; }
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px; }
 
 nav {
   margin: 0 auto; }
 
-.nav-button {
+.container {
+  width: 100%;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.hero-section {
+  width: 60%;
+  float: left;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: right;
+  height: 100%; }
+
+.main-content {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.content-box {
+  color: black;
+  border-radius: 5px;
+  width: 50%;
+  padding: 80px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 2px 13px 0px #d6d6d6;
+  box-shadow: 0px 2px 13px 0px #d6d6d6; }
+
+.hero-section-2 {
+  width: 30%;
+  float: left;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 100%;
+  word-wrap: break-word; }
+
+.btn-nav {
   padding: 20px 35px 20px 35px;
   background-color: white;
   width: 200px;
   text-decoration: none;
   border-style: none;
   border-radius: 50px;
-  float: right; }
+  float: right;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  -webkit-box-shadow: 0px 2px 13px 0px #d6d6d6;
+  box-shadow: 0px 2px 13px 0px #d6d6d6; }
+
+.btn-cta {
+  padding: 20px 35px 20px 35px;
+  background-color: #ff52bf;
+  width: 50%;
+  color: white;
+  text-decoration: none;
+  border-style: none;
+  border-radius: 50px;
+  margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  -webkit-box-shadow: 0px 2px 13px 0px #d6d6d6;
+  box-shadow: 0px 2px 13px 0px #d6d6d6; }
 
 .main-header {
   margin: 0px;
-  height: 300px;
-  padding: 40px;
+  height: 700px;
+  padding: 60px;
+  font-family: "Open Sans", sans-serif;
   background-image: url("../imgs/bg-hero-desktop.svg");
   background-color: #ebfbff; }

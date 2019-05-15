@@ -2,38 +2,86 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
-    <section class="main-header">
-      <nav>
-        <a href="#"><img src="./imgs/logo.svg"/></a>
-        <button type="button" class="btn-nav">Try it Free</button>
-      </nav>
+    <div class="main-container">
+      <header class="main-header">
+        <a id="logo" href="#"><img src="./imgs/logo.svg"/></a>
+        <nav>
+          <button type="button" class="btn-nav">Try it Free</button>
+        </nav>
+        <section class="hero-section">
+          <div class="hero-section--left">
+            <h1>Build The Community Your Fans Will Love</h1>
+            <p>
+              Huddle re-imagines the way we build communities. You have a voice,
+              but so does your audience. Create connections with your users as
+              you engage in genuine discussion.
+            </p>
+            <button type="button" class="btn-cta">Get Started For Free</button>
+          </div>
 
-      <section class="container">
-        <div class="hero-section-2">
-          <h1>Build The Community Your Fans Will Love</h1>
-          <p>
-            Huddle re-imagines the way we build communities. You have a voice,
-            but so does your audience. Create connections with your users as you
-            engage in genuine discussion.
-          </p>
-          <button type="button" class="btn-cta">Get Started For Free</button>
+          <div class="hero-section--right">
+            <img width="50%" src="./imgs/illustration-mockups.svg" />
+          </div>
+        </section>
+      </header>
+
+      <section class="benefits-section">
+        <div class="callout">
+          <div class="content-left">
+            <h2>Grow Together</h2>
+            <p class="content-box-body">
+              Generate meaningful discussions with your audience and build
+              strong, loyal communities. Think of the insightful conversations
+              you miss out on with a feedback form.
+            </p>
+          </div>
+          <div class="content-right">
+            <img width="100%" src="./imgs/illustration-grow-together.svg" />
+          </div>
         </div>
-
-        <div class="hero-section">
-          <img width="80%" src="./imgs/illustration-mockups.svg" />
+        <div class="callout">
+          <div class="content-right">
+            <img
+              width="100%"
+              src="./imgs/illustration-flowing-conversation.svg"
+            />
+          </div>
+          <div class="content-left">
+            <h2>Flowing Conversations</h2>
+            <p class="content-box-body">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </div>
+        <div class="callout">
+          <div class="content-left">
+            <h2>Your Users</h2>
+            <p class="content-box-body">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+          <div class="content-right">
+            <img width="100%" src="./imgs/illustration-your-users.svg" />
+          </div>
         </div>
       </section>
-    </section>
-
-    <section class="main-content">
-      <div class="content-box">
-        <div>
-          <h2>Grow Together</h2>
-        </div>
+    </div>
+    <section class="get-started-section">
+      <div class="get-started-cta">
+        <h2>Ready to build your community?</h2>
+        <button type="button" class="btn-cta">Get Started For Free</button>
       </div>
+    </section>
+    <section class="footer">
+
     </section>
   </body>
 </html>
